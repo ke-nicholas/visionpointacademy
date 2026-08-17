@@ -6,8 +6,8 @@ body{
 }
 
 .navigation img{
-    width:90px;
-    height: 90px;
+    width:70px;
+    height: 70px;
 
 }
 
@@ -18,13 +18,13 @@ body{
     flex-wrap: wrap;
     align-items: centre;
     justify-content: space-between;
-    background-color: rgb(32, 34, 43);
+    background-color:white;
 }
 
 .nav-bar{
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 35px;
     margin-right: 40px;
     align-items: center; 
     
@@ -32,16 +32,17 @@ body{
 
 #nav-logo{
     display: flex;
+    margin-bottom: -12px;
     
 }
 
 #nav_name{
-    color: white;
+    color: #0D1E3A;
     padding-left: 10px;
 }
 
 #nav-apply{
-    background-color: rgb(23, 113, 217);
+    background-color: #0D1E3A;
     border-radius: 7px;
     padding: 5px 25px;
     color: white;
@@ -51,7 +52,7 @@ body{
 }
 
 .nav-bar>a{
-    color: white;
+    color: #0D1E3A;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
@@ -62,8 +63,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: centre;
-    background-color: rgb(69, 43, 64);
+    background-color: #0D1E3A;
     height: 325px;
+
 
 }
 
@@ -86,6 +88,7 @@ body{
 }
 .apply{
     display: flex; 
+    
     flex-wrap: wrap;
     
 
@@ -97,7 +100,7 @@ body{
 
 #school-apply{
     margin: 25px 35px 40px;  
-    background-color:rgb(32, 34, 43);
+    background-color:#5de458;
     border-radius: 7px;
     padding: 9px 25px;
     color: white;
@@ -125,38 +128,123 @@ body{
 .intro-cards{
     display: flex;
     
+    
+    
 
 }
 
 .intro-card{
     background-color:#fff;
     border-radius: 10px;
-    border: 1.2px solid rgb(32, 34, 43);
-    margin: -15px 0px 10px 20px;
-    gap: 10px;
+    border: 1.2px solid #0D1E3A;
+    margin: 20px 0px 10px 20px;
+    gap: 5px;
     padding: 5px 25px;
     display: flex;
     
 
 }
-.intro-card img{
+.intro-card img,.achievement img{
     width:70px;
     height: 70px;
     
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom:0px ;
 }
 
 .intro-card h3{
-    color:darkblue;
+    color:#0D1E3A;
+    margin-top: 0px;
+
 }
 .intro-card p{
-    color: black;
+    color: #0D1E3A;
 }
 
 .intro-card a{
     color: #27F5A9;
     
 }
+
+
+
+
+
+.school-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.principal{
+    display: flex;
+    border: 2px solid #0D1E3A;
+    width: 45%;
+    border-radius: 10px;
+}
+
+.principal-image-header{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.principal-image-header h3{
+    color: #0D1E3A;
+    
+    margin-left: 30px;
+}
+
+.principal img{
+    width:220px;
+    height: 250px;
+    border: 2px solid #0D1E3A;
+    border-radius: 10px;
+    margin: 3px 10px;
+}
+
+.message{
+    margin-top: 65px;
+    margin-left: 5px;
+    line-height: 1.5;
+    border-left: 2px solid #0D1E3A;
+    border-radius: 12px;
+}
+.achievements {
+    
+    border: 2px solid  #154ea9;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 50%;
+
+}
+
+.cards{
+    display: flex;
+    justify-content: centre;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+
+}
+
+.achievement{
+    border: 2px solid #154ea9;
+    border-radius: 10px;
+    padding: 3px 20px;
+     
+}
+
+.achievement h3{
+    font-size: 30px;
+}
+
+
+
+
+
 
 
