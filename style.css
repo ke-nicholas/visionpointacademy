@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: Bricolage Grotesque;
+}
+
+.navigation img{
+    width:90px;
+    height: 90px;
+
+}
+
+
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: centre;
+    justify-content: space-between;
+    background-color: rgb(32, 34, 43);
+}
+
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-right: 40px;
+    align-items: center; 
+    
+}
+
+#nav-logo{
+    display: flex;
+    
+}
+
+#nav_name{
+    color: white;
+    padding-left: 10px;
+}
+
+#nav-apply{
+    background-color: rgb(23, 113, 217);
+    border-radius: 7px;
+    padding: 5px 25px;
+    color: white;
+    font-weight: bold;
+
+    
+}
+
+.nav-bar>a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.school-intro{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: centre;
+    background-color: rgb(69, 43, 64);
+    height: 325px;
+
+}
+
+#school-introduction{
+    color: white;
+    width:50%;
+
+}
+
+#school-introduction h2{
+    margin: 0px;
+    font-size:clamp(32px, 5vw, 50px);;
+    padding-top: 3px;
+    padding-left: 17px;
+}
+#school-introduction p{
+    margin: 0px;
+    padding:0px 17px ;
+    font-size: clamp(16px, 2vw, 20px);
+}
+.apply{
+    display: flex; 
+    flex-wrap: wrap;
+    
+
+}
+.apply>a{
+    text-decoration: none;
+    
+}
+
+#school-apply{
+    margin: 25px 35px 40px;  
+    background-color:rgb(32, 34, 43);
+    border-radius: 7px;
+    padding: 9px 25px;
+    color: white;
+    font-weight: bold;
+}
+
+#school-learn-about{
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    padding:6px 15px;
+    border: 1px solid white;
+    margin-top: 25px;
+    margin-bottom: 45px;
+
+}
+
+.school-intro>img{
+    object-fit: cover;
+
+    width: 50%;
+    height: 325px;
+}
+
+.intro-cards{
+    display: flex;
+    
+
+}
+
+.intro-card{
+    background-color:#fff;
+    border-radius: 10px;
+    border: 1.2px solid rgb(32, 34, 43);
+    margin: -15px 0px 10px 20px;
+    gap: 10px;
+    padding: 5px 25px;
+    display: flex;
+    
+
+}
+.intro-card img{
+    width:70px;
+    height: 70px;
+    
+    padding-top: 40px;
+    padding-bottom:0px ;
+}
+
+.intro-card h3{
+    color:darkblue;
+}
+.intro-card p{
+    color: black;
+}
+
+.intro-card a{
+    color: #27F5A9;
+    
+}
+
+
