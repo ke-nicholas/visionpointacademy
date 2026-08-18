@@ -136,7 +136,7 @@ body{
 .intro-card{
     background-color:#fff;
     border-radius: 10px;
-    border: 1.2px solid #0D1E3A;
+    border: 1px solid #0D1E3A;
     margin: 20px 0px 10px 20px;
     gap: 5px;
     padding: 5px 25px;
@@ -179,7 +179,7 @@ body{
 
 .principal{
     display: flex;
-    border: 2px solid #0D1E3A;
+    border: 1px solid #0D1E3A;
     width: 45%;
     border-radius: 10px;
 }
@@ -192,6 +192,7 @@ body{
 
 .principal-image-header h3{
     color: #0D1E3A;
+    text-decoration: underline;
     
     margin-left: 30px;
 }
@@ -199,7 +200,7 @@ body{
 .principal img{
     width:220px;
     height: 250px;
-    border: 2px solid #0D1E3A;
+    border: 1px solid #0D1E3A;
     border-radius: 10px;
     margin: 3px 10px;
 }
@@ -213,7 +214,7 @@ body{
 }
 .achievements {
     
-    border: 2px solid  #154ea9;
+    border: 1px solid  #0D1E3A;
     margin-left: 20px;
     border-radius: 10px;
     width: 50%;
@@ -232,7 +233,7 @@ body{
 }
 
 .achievement{
-    border: 2px solid #154ea9;
+    border: 2px solid #0D1E3A;
     border-radius: 10px;
     padding: 3px 20px;
      
@@ -240,6 +241,77 @@ body{
 
 .achievement h3{
     font-size: 30px;
+    text-align: center;
+    color:rgb(171, 7, 7);
+}
+
+.achievements>h3{
+    text-align: center;
+    
+}
+
+.school-information{
+    display: flex;
+    color: #fff;
+    background-color: #0D1E3A;
+    gap: 15px;
+    
+}
+
+#about-us{
+    margin-left:12px;
+
+}
+.information-items{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 30%;
+    margin-bottom:10px;
+
+
+}
+.information-items h3 {
+    text-align: center;
+}
+
+.information-items p {
+    text-align: center;
+
+}
+
+#newsletter{
+    margin-right: 10px;
+}
+
+
+#submit-button{
+    color: #0D1E3A;
+    background-color: #5de458;
+    padding:5px 17px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+input[name="email-holder"]:placeholder-shown {
+  border: 2px solid #cbd5e1;
+  background-color: #f8fafc;
+  padding: 4px;
+  border-radius: 6px;
+  margin-left:10px;
+}
+#submit-button:hover {
+  background-color: #1d4ed8;
+}
+
+
+
+
+
+footer{
+    color: white;
+    background-color: #0D1E3A;
+    text-align: center;
+    margin-top: 10px;
 }
 
 
